@@ -21,7 +21,7 @@ img {
 }
 ul {
   width: 100px;
-  height: 325px;
+  height: 265px;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
@@ -45,10 +45,8 @@ li {
   background: rgba(0, 254, 255);
 }
 
-#red {
-  background: red;
+#darkGreen {
+  background: darkgreen;
 }
 
-#yellow {
-  background: yellow;
-}
+

@@ -1,8 +1,7 @@
 document.getElementById("purple").onclick = partyPurple;
 document.getElementById("green").onclick = partyGreen;
 document.getElementById("blue").onclick = partyBlue;
-document.getElementById("red").onclick = partyRed;
-document.getElementById("yellow").onclick = partyYellow;
+document.getElementById("darkGreen").onclick = partyDarkGreen;
 
 function partyPurple() {
   document.querySelector("body").style.backgroundColor = "rgba(241,63,247,1)";
@@ -19,12 +18,7 @@ function partyBlue() {
   document.querySelector("body").style.color = "white";
 }
 
-function partyRed() {
-  document.querySelector("body").style.backgroundColor = "red";
-  document.querySelector("body").style.color = "white";
-}
-
-function partyYellow() {
-  document.querySelector("body").style.backgroundColor = "yellow";
+function partyDarkGreen() {
+  document.querySelector("body").style.backgroundColor = "darkgreen";
   document.querySelector("body").style.color = "white";
 }
